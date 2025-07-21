@@ -20,8 +20,8 @@ from langchain_core.prompts import ChatPromptTemplate
 # --- Configuration ---
 load_dotenv()
 
-PINECONE_API_KEY = "pcsk_82eaF_FPz5ncEqJq86AoFZm3aHzK4STf1TLxdTBwf5Cn1irBXbU9mKrBRrDcAoB9fxSUW"
-GROQ_API_KEY = "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"
+PINECONE_API_KEY = "YOUR_API_KEY"
+GROQ_API_KEY = "YOUR_API_KEY"
 
 if not PINECONE_API_KEY or not GROQ_API_KEY:
     st.error("Missing API keys. Please check your .env file.")
